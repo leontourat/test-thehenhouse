@@ -77,6 +77,7 @@ export default {
         fields: [
           { name: "👤 Client", value: name, inline: true },
           { name: "👥 Personnes", value: String(peopleNumber), inline: true },
+          { name: "📱 Numéro de téléphone", value: phone, inline: true },
           { name: "📅 Date", value: date, inline: true },
           { name: "🕙 Heure", value: time, inline: true },
           { name: "📝 Message", value: message || "Aucun message.", inline: false },
